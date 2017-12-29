@@ -1,4 +1,4 @@
-baseurl = "https://maktubuzz.github.io/logbook/"
+baseurl = "maktubuzz.github.io/logbook/"
 copyright = "All rights reserved - 2015"
 languageCode = "en-us"
 paginate = 5
