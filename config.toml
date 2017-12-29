@@ -1,13 +1,12 @@
-baseurl = "maktubuzz.github.io/logbook/"
+baseurl = "https://maktubuzz.github.io/logbook/"
 copyright = "All rights reserved - 2015"
 languageCode = "en-us"
 paginate = 5
 pluralizelisttitles = false
 theme = "minimal-master"
-title = "荒謬傑克遜"
+title = "Maktub"
 canonifyurls = true
 sectionPagesMenu = "main"
-publishDir = "docs"
 
 [[menu.main]]
   identifier = "linkedIn"
@@ -38,7 +37,6 @@ publishDir = "docs"
   highlight = true
   highlightStyle = "solarized-dark"
   highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python"]
-
 
 [permalinks]
   post = "/:slug/"
