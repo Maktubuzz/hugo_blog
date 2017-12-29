@@ -7,6 +7,7 @@ theme = "minimal-master"
 title = "荒謬傑克遜"
 canonifyurls = true
 sectionPagesMenu = "main"
+publishDir = "docs"
 
 [[menu.main]]
   identifier = "linkedIn"
@@ -37,6 +38,7 @@ sectionPagesMenu = "main"
   highlight = true
   highlightStyle = "solarized-dark"
   highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python"]
+
 
 [permalinks]
   post = "/:slug/"
