@@ -1,0 +1,46 @@
+baseurl = "https://tiwoo.netlify.com/"
+copyright = "All rights reserved - 2015"
+languageCode = "en-us"
+paginate = 5
+pluralizelisttitles = false
+theme = "minimal-master"
+title = "荒謬傑克遜"
+canonifyurls = true
+sectionPagesMenu = "main"
+
+[[menu.main]]
+  identifier = "linkedIn"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/tiwutw/"
+  weight = -120
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = -130
+
+
+[params]
+  description = "IT / Something I've learned"
+  metadescription = ""
+  cover = "images/cover_8.jpg"
+  author = "Woo Ti"
+  authorlocation = "Taipei, Taiwan"
+  logo = "images/logo_7.png"
+  googleAnalyticsUserID = "UA-110947810-1"
+  hideHUGOSupport = false
+  paginatePath = "page"
+  accent = "Blue"
+  showBorder = true
+  backgroundColor = "White"
+  font = "Raleway"
+  highlight = true
+  highlightStyle = "solarized-dark"
+  highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "python"]
+
+[permalinks]
+  post = "/:slug/"
+[sitemap]
+  ChangeFreq = ""
+  Filename = "sitemap.xml"
+  Priority = "-1"
